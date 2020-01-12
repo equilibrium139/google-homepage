@@ -1,0 +1,39 @@
+img{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    padding-bottom: 30px;
+}
+
+input{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+li a:visited{
+    color: blue;
+}
+
+li a{
+    text-decoration: none;
+}
+
+nav ol {
+    padding-left: 10px;
+}
+
+.center {
+    margin-top: 10%;
+}
+
+.rightnav{
+    float: right;
+}
