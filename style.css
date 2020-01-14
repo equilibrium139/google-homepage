@@ -1,14 +1,27 @@
 img{
     display: block;
     margin: 0 auto;
-    width: 15%;
     padding-bottom: 30px;
+}
+.center {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10%;
 }
 
 input{
     width: 30%;
     margin: 0 auto;
     display: block;
+}
+
+.searchButton{
+    width: 10%;
+}
+
+li {
+    display: inline;
 }
 
 nav li {
@@ -30,8 +43,21 @@ nav ol {
     padding-left: 10px;
 }
 
-.center {
-    margin-top: 10%;
+
+
+ul{
+    padding-left: 0;
+    text-align: center;
+}
+
+.searchButtons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input.searchButton{
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .rightnav{
